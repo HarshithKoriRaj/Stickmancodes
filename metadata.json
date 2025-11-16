@@ -1,0 +1,7 @@
+{
+  "name": "STICKMAN CODES",
+  "description": "A collection of interactive games designed to teach coding concepts. Features a Fire Rescue game for loops, a Stickman Arrays game for collections, an IF-ELSE Runner for conditional logic, a Stickman Stack Tower for the LIFO principle, a Stickman Barista game for the FIFO (Queue) principle, a Tower of Hanoi game for recursion visualization, a Sorting Algorithms game teaching Bubble, Selection, and Insertion Sort, a bright Beach Bridge game where stickmen walk on top of wooden planks to learn singly linked lists, and a Treasure Hunt game for linear search algorithm.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

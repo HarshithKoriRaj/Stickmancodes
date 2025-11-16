@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STICKMAN CODES</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+<style>
+    @keyframes walk-bob {
+      0% { bottom: 0; }
+      50% { bottom: 10px; }
+      100% { bottom: 0; }
+    }
+    @keyframes walk-bob-small {
+      0% { bottom: 0; }
+      50% { bottom: 8px; }
+      100% { bottom: 0; }
+    }
+    @keyframes nod {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(5deg); }
+      75% { transform: rotate(-5deg); }
+      100% { transform: rotate(0deg); }
+    }
+</style>
+<!-- MediaPipe Hands for hand tracking -->
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1646424915/hands.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3.1640029074/camera_utils.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.3.1620248257/drawing_utils.min.js" crossorigin="anonymous"></script>
+</head>
+  <body class="bg-gray-100 text-gray-800">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
